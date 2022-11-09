@@ -20,24 +20,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'epiz_32913523_d7eventos' );
-
+define( 'DB_NAME', 'database_name_here' );
 
 /** Database username */
-define( 'DB_USER', 'epiz_32913523' );
-
+define( 'DB_USER', 'username_here' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'ftwdKp1CfZbI' );
-
+define( 'DB_PASSWORD', 'password_here' );
 
 /** Database hostname */
-define( 'DB_HOST', 'sql204.epizy.com' );
-
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
-
+define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -53,22 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'G+iK7:[O`aI]ak6NpbkCT=?aw-vHIfw>2,}0`!Hz7tLPXm<*=QezlB=mKTSpd<Y_' );
-
-define( 'SECURE_AUTH_KEY',  'L(Kk+GCT~,?f1!/:l v)g9EGR^M<8iLk}_k+!aH4Yg/shh>^Z$&c7HtEHe<)4/re' );
-
-define( 'LOGGED_IN_KEY',    'w3-nBI<7`!_1NFQ8~qG#J(0]#3rU?L8gqtqzsJh8Ad57[9ylO=DQ#;^=7!o6L%hD' );
-
-define( 'NONCE_KEY',        'Jaa|I7ft`hq+fZ>X_]-VY?w4m@zFg#>%P|xj6kP)R3;FIh9Z82#RJ06slezIW15x' );
-
-define( 'AUTH_SALT',        'BT@mUEf9_(&@!xh#m=c^&:X#r^BwyUQxF}z5`Itjb1~)o#Nbl]QrCy*lX<:f?_.e' );
-
-define( 'SECURE_AUTH_SALT', 'EG-(SY}ZsA99`>)@A}FbrSq@ns]|qeGf,iDk^7y{XX?}pV~K4lnNx[[r?C|[%<zF' );
-
-define( 'LOGGED_IN_SALT',   '/<XaMU^.VZ5XN-B,rW#)f)#<~<N:&dX@KyIVadf#G?~1%X|YUKommNS?~RB!1Xj7' );
-
-define( 'NONCE_SALT',       'I]bPxy8lcOe]/Ii|g%*H(/z3i=n@F{32Uw aKz/Op_.k{#r@LxOTHa`I3{/! Vhu' );
-
+define( 'AUTH_KEY',         'put your unique phrase here' );
+define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
+define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
+define( 'NONCE_KEY',        'put your unique phrase here' );
+define( 'AUTH_SALT',        'put your unique phrase here' );
+define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
+define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
+define( 'NONCE_SALT',       'put your unique phrase here' );
 
 /**#@-*/
 
@@ -79,7 +66,6 @@ define( 'NONCE_SALT',       'I]bPxy8lcOe]/Ii|g%*H(/z3i=n@F{32Uw aKz/Op_.k{#r@LxO
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix = 'wp_';
-
 
 /**
  * For developers: WordPress debugging mode.
